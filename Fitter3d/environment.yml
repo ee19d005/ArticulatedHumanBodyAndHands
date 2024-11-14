@@ -1,0 +1,19 @@
+# Copyright (c) Facebook, Inc. and its affiliates.
+# Code by Samarth Brahmbhatt
+name: contactpose
+
+channels:
+  - anaconda
+
+dependencies:
+  - python=3.7
+  - matplotlib
+  - opencv
+  - scikit-learn
+  - tqdm
+  - requests
+  - pip
+  - pip:
+      - chumpy
+      - open3d
+      - transforms3d

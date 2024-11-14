@@ -114,7 +114,7 @@ class MANOFitter(object):
       mean_betas = ch.array(np.zeros(m.betas.size))
       objective.append((m.betas - mean_betas) / shape_sigma)
       # optimize
-      ch.minimize(objective, x0=(m.pose, m.betas, m.trans), method='dogleg')
+      ch.minimize(objective, x0=(m.pose, m.betas, m.trans), method='dogleg', options={'maxiter':20})
 
       p = mano_param_dict(n_pose_params)
       p['pose']  = np.array(m.pose).tolist()
