@@ -25,3 +25,6 @@ Please ensure the following before attending the workshop
 2) Download the model from the "Models & Code" link under downloads
 3) Copy MANO_LEFT.pkl and MANO_RIGHT.pkl into "YourPreferredFolderName"
 
+# Simple Hand Mesh Demo
+
+We use mediapipe and optimization techniques to fit a mano model to generate 3d hand mesh from a given image. Check out HandMeshBasic.ipynb for this
