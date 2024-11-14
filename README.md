@@ -27,4 +27,4 @@ Please ensure the following before attending the workshop
 
 # Simple Hand Mesh Demo
 
-We use mediapipe and optimization techniques to fit a mano model to generate 3d hand mesh from a given image. Check out HandMeshBasic.ipynb for this
+We use mediapipe and optimization techniques to fit a mano model to generate 3d hand mesh from a given image. Check out HandMeshBasic.ipynb for this. The fitten mano mesh can be visualized using demo_smplx_mano.ipynb
